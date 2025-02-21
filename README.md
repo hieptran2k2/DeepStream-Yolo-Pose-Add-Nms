@@ -86,7 +86,7 @@ python main.py -i <uri1> [uri2] -o /path/to/output/file -c /path/to/config/file
 | -i or --input       |      Path to input streams                                             | file:///path/to/file (h264, mp4, ...)  or rtsp://host/video1 |
 | -o or --output      |      Path to output file                                               |                          /output/out.mp4                     |
 | -c or  --configfile |      Choose the config-file to be used with specified pgie             |                      /model/pgie/config.txt                  |
-| --file-loop         |      =Loop the input file sources after EOS if input is file           |                                                              |
+| --file-loop         |      Loop the input file sources after EOS if input is file            |                                                              |
 
 **NOTE**: The TensorRT engine file may take a very long time to generate (sometimes more than 10 minutes).
 

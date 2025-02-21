@@ -1,0 +1,23 @@
+[property]
+gpu-id=0
+net-scale-factor=0.00392156862745098
+model-color-format=0
+   # 0=NCHW, 1=NHWC, 2=CUSTOM
+network-input-order=0
+onnx-file=/deepstream/apps/DeepStream-Yolo-Pose-Add-Nms/model/pgie/yolo11n-pose.onnx
+model-engine-file=/deepstream/apps/DeepStream-Yolo-Pose-Add-Nms/model/pgie/yolo11n-pose.onnx_b1_gpu0_fp16.engine
+labelfile-path=/deepstream/apps/DeepStream-Yolo-Pose-Add-Nms/model/pgie/label.txt
+#infer-dims= 3;640;640
+batch-size=1
+process-mode=1
+network-mode=2
+network-type=3
+num-detected-classes=1
+interval=0
+gie-unique-id=1
+maintain-aspect-ratio=1
+symmetric-padding=1
+parse-bbox-instance-mask-func-name=NvDsInferParseYoloPoseNms
+custom-lib-path=/deepstream/apps/DeepStream-Yolo-Pose-Add-Nms/nvdsinfer_custom_impl_Yolo_pose/libnvdsinfer_custom_impl_Yolo_pose.so
+cluster-mode=4
+output-instance-mask=1

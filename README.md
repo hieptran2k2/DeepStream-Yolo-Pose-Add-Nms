@@ -97,5 +97,5 @@ python main.py -i <uri1> [uri2] -o /path/to/output/file -c /path/to/config/file
 ```
 
 ### Reference
-- DeepStream-Yolo: https://github.com/marcoslucianops/DeepStream-Yolo
+- DeepStream-Yolo: https://github.com/marcoslucianops/DeepStream-Yolo-Pose
 - DeepStream SDK Python: https://github.com/NVIDIA-AI-IOT/deepstream_python_apps

@@ -1,5 +1,5 @@
 # DeepStream-Yolo-Pose-Add-Nms
-NVIDIA DeepStream SDK 7.1/ 7.0/ 6.3 / 6.2 / 6.1.1 / 6.1 / 6.0.1 / 6.0 application for YOLO-Pose models
+NVIDIA DeepStream SDK 7.1 application for YOLO-Pose models
 --------------------------------------------------------------------------------------------------
 ### Improvements on this repository
 
@@ -41,22 +41,12 @@ export CUDA_VER=XY.Z
 
   ```
   DeepStream 7.1 = 12.6
-  DeepStream 7.0 / 6.4 = 12.2
-  DeepStream 6.3 = 12.1
-  DeepStream 6.2 = 11.8
-  DeepStream 6.1.1 = 11.7
-  DeepStream 6.1 = 11.6
-  DeepStream 6.0.1 / 6.0 = 11.4
-  DeepStream 5.1 = 11.1
   ```
 
 * Jetson platform
 
   ```
   DeepStream 7.1 = 12.6
-  DeepStream 7.0 / 6.4 = 12.2
-  DeepStream 6.3 / 6.2 / 6.1.1 / 6.1 = 11.4
-  DeepStream 6.0.1 / 6.0 / 5.1 = 10.2
   ```
 
 3.2. Make the lib
